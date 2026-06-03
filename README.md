@@ -4,7 +4,7 @@
 ---
 
 ## サイトURL
-https://sample.com
+https://shun-takama.site/index.html
 
 ---
 
