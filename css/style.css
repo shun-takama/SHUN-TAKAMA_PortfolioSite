@@ -38,7 +38,6 @@ global
   /* content-width */
   --width-content-s: 960px;
   --width-content: 1080px;
-  --width-content-l: 1200px;
 
   /* font-size */
   --font-size-xxs: 10.5px;
@@ -252,7 +251,7 @@ body {
   }
 }
 
-/* ▼▼ ユーティリティー ▼▼ */
+/* ▼▼ ユーティリティ ▼▼ */
 /*!
   utility > utility
   ------------------------------
@@ -523,20 +522,19 @@ component > cards(works)
 }
 /* カード単体 */
 .c-works-card {
-  place-items: center;
   height: 100%;
   padding: 20px 0;
   background-color: var(--color-bg-white);
   border-radius: 30px;
 }
 
-.c-works-card img {
-  display: block;
-  width: 95%;
+.c-works-card-wrapper {
+  width: 90%;
+  margin-inline: auto;
 }
 
-.c-category-contents {
-  width: 85%;
+.c-works-card-wrapper img {
+  display: block;
 }
 
 .c-works-card-textbox {
@@ -1096,6 +1094,10 @@ js > animation
   }
 }
 
+.top-profile-name-en {
+  font-family: var(--font-family-english);
+}
+
 .top-profile-description span {
   display: block;
   margin: 14px 0;
@@ -1528,4 +1530,13 @@ js > animation
   .works-detail-other-contents {
     flex-direction: row;
   }
+}
+
+/* ▼▼ 固有ページ_404(詳細ページ) ▼▼ */
+/*!
+  page > 404
+  ------------------------------
+  */
+.error-contents-text {
+  text-align: center;
 }
