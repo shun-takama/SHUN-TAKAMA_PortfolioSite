@@ -1,7 +1,9 @@
-import { initHamburger } from "./component/hamburger.js";
-import { initFadein } from "./component/fadein.js";
+import { initAccordion } from "./modules/accordion.js";
+import { initFadein } from "./modules/fadein.js";
+import { initPagetop } from "./modules/pagetop.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  initHamburger();
+  initAccordion();
   initFadein();
+  initPagetop();
 });
