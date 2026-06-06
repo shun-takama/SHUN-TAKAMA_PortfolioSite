@@ -38,7 +38,6 @@ global
   /* content-width */
   --width-content-s: 960px;
   --width-content: 1080px;
-  --width-content-l: 1200px;
 
   /* font-size */
   --font-size-xxs: 10.5px;
@@ -901,14 +900,6 @@ js > animation
   .top-kv-subtitle {
     font-size: var(--font-size-xl);
   }
-}
-
-/*!
-  page > top > works
-  ------------------------------
-  */
-.top-works-category-list {
-  margin-right: auto;
 }
 
 /*!
